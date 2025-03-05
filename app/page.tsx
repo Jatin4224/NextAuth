@@ -12,7 +12,7 @@ const font = Poppins({
 });
 export default function Home() {
   return (
-    <main className="flex h-full flex-col items-center justify-center bg-gray-500 drop-shadow-md">
+    <main className="flex h-full flex-col items-center justify-center bg-gradient-to-t from-gray-300 to-gray-800 drop-shadow-md">
       <div className="space-y-6 text-center">
         <h1 className={cn("text-6xl font-semibold text-white", font.className)}>
           🔐Auth
