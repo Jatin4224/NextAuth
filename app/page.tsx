@@ -22,7 +22,7 @@ export default function Home() {
           <LoginButton>
             <motion.button
               whileHover={{
-                rotateX: 25,
+                rotateX: 15,
                 rotateY: 10,
                 boxShadow: "0px 20px 50px rgba(80, 50, 50, 0.7)",
 
